@@ -1,2 +1,4 @@
 # Star-count cache produced by scripts/sort_by_stars.py
 .cache/
+config.bat
+node_modules

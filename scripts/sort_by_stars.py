@@ -14,6 +14,11 @@ Requires GH_TOKEN (or GITHUB_TOKEN) in the environment for a comfortable API
 rate limit. Results are cached in .cache/stars.json to avoid hammering the API.
 """
 
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import json
 import os
 import re
